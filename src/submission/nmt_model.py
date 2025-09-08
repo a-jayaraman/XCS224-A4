@@ -46,7 +46,7 @@ class NMT(nn.Module):
         self.dropout = None
 
 
-        ### TODO - Initialize the following variables:
+        ### TODO - Initialize the following variables in the following exact order:
         ###     self.encoder (Bidirectional LSTM with bias)
         ###     self.decoder (LSTM Cell with bias)
         ###     self.h_projection (Linear Layer with no bias), called W_{h} in the PDF.
